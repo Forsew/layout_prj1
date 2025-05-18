@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+
+body {
+    font-family: "Libre Franklin", sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 71px;
+    color: #fff;
+    margin: 0;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+h4 {
+    margin: 0;
+}
+
+span {
+    color: #999999;
+    font-weight: 250;
+}
+
+p {
+    font-family: "IBM Plex Mono", monospace;
+    color: #999;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container {
+    box-sizing: border-box;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+
+}
+
+.btn {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 46px;
+    border:2px solid #fff;
+    border-radius: 5px;
+
+    transition: all 0.4s ease-in-out;
+}
+
+.btn:hover {
+    opacity: 0.6;
+}
+
+.btn-green {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5AB963;
+    width: 160px;
+    height: 60px;
+    
+    border-radius: 5px;
+
+    transition: all 0.4s ease-in-out;
+}
+
+.btn-green:hover {
+    opacity: 0.6;
+}
+
+/*Welcome*/
+.welcome {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/assets/img/Frame.png");
+    height: 582px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+}
+
+.nav_list {
+    display: flex;
+    align-items: center;
+    gap: 40px
+}
+
+
+.qd {
+    width: 4px;
+    height: 4px;
+    background-color: #fff;
+    margin-right: -5px;
+    margin-left: -5px;
+}
+
+
+
+.title-sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 120px 0 120px;
+}
+
+
+.title-sec-p p{
+    color: #fff;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+
+/* about*/
+
+.about {
+    margin: 120px 0 120px;
+    
+}
+
+.about-title {
+    width: 507px;
+    height: 144px;
+    margin-bottom: 54px;
+}
+.about-cards {
+    display: flex;
+    gap: 20px;
+}
+.card {
+    width: 377px;
+    height: 330px;
+
+}
+.card-main {
+    margin-top: 51px;
+    margin-left: 41px;
+    min-width: 272px;
+}
+.card-img img {
+    height: 52px;
+}
+
+
+/* image */
+
+.image img{
+    width: 98%;
+
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+}
+
+/* more */
+
+.more {
+    margin: 115px 0 115px;
+}
+
+.more-title {
+    text-align: center;
+}
+
+.more .container{width: 760px;}
+
+.more-btn {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.more-btn a{
+    color: #5AB963;
+    text-transform: uppercase;
+    font-size: 11px;   
+}
+
+/* premium */
+
+.premium {
+}
+
+.premium .container {
+    width: 1170px;
+}
+
+.line {
+    height: 1px;
+    background-color: #9999;
+    opacity: 0.3;
+}
+
+.premium .container .line{
+    margin-bottom: 120px;
+}
+
+.premium-card {
+    display: flex;
+    gap: 100px;
+    
+}
+
+.card2{
+    flex-direction: row-reverse;
+    margin-top: 90px;
+}
+
+.prem-text {
+    width: 370px;
+    margin-top: 10px;
+}
+
+.prem-text h2{
+    margin-bottom: 25px;
+    
+}
+
+.about-prem {
+    margin: 110px 0 120px;
+    text-align: center;
+}
+
+.about-prem-btn a{
+    margin-top: 12px;
+    color: #5AB963;
+    text-transform: uppercase;
+    font-size: 11px;
+    
+}
+
+.about-prem h4 {
+    margin-bottom: 12px;
+}
+
+.about-prem-btn{
+    margin-bottom: 120px;
+}
+
+
+.about-prem .line{
+    height: 1px;
+    color: #999;
+    opacity: 0.3;
+}
+
+/* party */
+
+.party {
+    margin-bottom: 150px;
+}
+
+.party-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.party-text {
+    width: 483px;
+}
+
+.party-text h4{color: #5AB963;}
+
+.party-on {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.line-green {
+    width: 30px;
+    height: 2px;
+    background-color: #5AB963;
+}
+
+/* footer */
+
+.footer {
+    height: 400px;
+    background-color: #0A0E1A;
+
+}
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.footer-logo {
+    margin-top: 130px;
+}
+.nav-footer {
+    display: flex;
+    gap: 30px;
+    margin-top: 120px;
+}
+.navul {
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+}
+.navli {
+}
+.socials {
+    display: flex;
+    gap: 21px;
+    flex-direction: row;
+}
